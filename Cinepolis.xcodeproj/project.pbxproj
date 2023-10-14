@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB557602ADA4B0100A4D059 /* CinepolisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5575F2ADA4B0100A4D059 /* CinepolisApp.swift */; };
+		AAB557642ADA4B0200A4D059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB557632ADA4B0200A4D059 /* Assets.xcassets */; };
+		AAB557672ADA4B0200A4D059 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB557662ADA4B0200A4D059 /* Preview Assets.xcassets */; };
+		AAB557712ADA4B0200A4D059 /* CinepolisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB557702ADA4B0200A4D059 /* CinepolisTests.swift */; };
+		AAB5577B2ADA4B0200A4D059 /* CinepolisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5577A2ADA4B0200A4D059 /* CinepolisUITests.swift */; };
+		AAB5577D2ADA4B0200A4D059 /* CinepolisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5577C2ADA4B0200A4D059 /* CinepolisUITestsLaunchTests.swift */; };
+		AAB557962ADA4C4000A4D059 /* Listas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB557952ADA4C4000A4D059 /* Listas.swift */; };
+		AAB557982ADA4C4B00A4D059 /* TrainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB557972ADA4C4B00A4D059 /* TrainCardView.swift */; };
+		AAB5579A2ADA4C5200A4D059 /* VistaListas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB557992ADA4C5200A4D059 /* VistaListas.swift */; };
+		AAB5579C2ADA4CB600A4D059 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5579B2ADA4CB600A4D059 /* Menu.swift */; };
+		AAB5579E2ADA4CCC00A4D059 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5579D2ADA4CCC00A4D059 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB5576D2ADA4B0200A4D059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB557542ADA4B0100A4D059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB5575B2ADA4B0100A4D059;
+			remoteInfo = Cinepolis;
+		};
+		AAB557772ADA4B0200A4D059 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB557542ADA4B0100A4D059 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB5575B2ADA4B0100A4D059;
+			remoteInfo = Cinepolis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB5575C2ADA4B0100A4D059 /* Cinepolis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinepolis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB5575F2ADA4B0100A4D059 /* CinepolisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinepolisApp.swift; sourceTree = "<group>"; };
+		AAB557632ADA4B0200A4D059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAB557662ADA4B0200A4D059 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAB5576C2ADA4B0200A4D059 /* CinepolisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinepolisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB557702ADA4B0200A4D059 /* CinepolisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinepolisTests.swift; sourceTree = "<group>"; };
+		AAB557762ADA4B0200A4D059 /* CinepolisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinepolisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB5577A2ADA4B0200A4D059 /* CinepolisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinepolisUITests.swift; sourceTree = "<group>"; };
+		AAB5577C2ADA4B0200A4D059 /* CinepolisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinepolisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAB557952ADA4C4000A4D059 /* Listas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Listas.swift; path = ../../../codeViernes/Listas.swift; sourceTree = "<group>"; };
+		AAB557972ADA4C4B00A4D059 /* TrainCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainCardView.swift; path = ../../../codeViernes/TrainCardView.swift; sourceTree = "<group>"; };
+		AAB557992ADA4C5200A4D059 /* VistaListas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VistaListas.swift; path = ../../../codeViernes/VistaListas.swift; sourceTree = "<group>"; };
+		AAB5579B2ADA4CB600A4D059 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../codeViernes/Menu.swift; sourceTree = "<group>"; };
+		AAB5579D2ADA4CCC00A4D059 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../codeViernes/ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAB557592ADA4B0100A4D059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB557692ADA4B0200A4D059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB557732ADA4B0200A4D059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB557532ADA4B0100A4D059 = {
+			isa = PBXGroup;
+			children = (
+				AAB5575E2ADA4B0100A4D059 /* Cinepolis */,
+				AAB5576F2ADA4B0200A4D059 /* CinepolisTests */,
+				AAB557792ADA4B0200A4D059 /* CinepolisUITests */,
+				AAB5575D2ADA4B0100A4D059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB5575D2ADA4B0100A4D059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5575C2ADA4B0100A4D059 /* Cinepolis.app */,
+				AAB5576C2ADA4B0200A4D059 /* CinepolisTests.xctest */,
+				AAB557762ADA4B0200A4D059 /* CinepolisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAB5575E2ADA4B0100A4D059 /* Cinepolis */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5575F2ADA4B0100A4D059 /* CinepolisApp.swift */,
+				AAB557972ADA4C4B00A4D059 /* TrainCardView.swift */,
+				AAB5579D2ADA4CCC00A4D059 /* ContentView.swift */,
+				AAB557952ADA4C4000A4D059 /* Listas.swift */,
+				AAB557992ADA4C5200A4D059 /* VistaListas.swift */,
+				AAB5579B2ADA4CB600A4D059 /* Menu.swift */,
+				AAB557632ADA4B0200A4D059 /* Assets.xcassets */,
+				AAB557652ADA4B0200A4D059 /* Preview Content */,
+			);
+			path = Cinepolis;
+			sourceTree = "<group>";
+		};
+		AAB557652ADA4B0200A4D059 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAB557662ADA4B0200A4D059 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAB5576F2ADA4B0200A4D059 /* CinepolisTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB557702ADA4B0200A4D059 /* CinepolisTests.swift */,
+			);
+			path = CinepolisTests;
+			sourceTree = "<group>";
+		};
+		AAB557792ADA4B0200A4D059 /* CinepolisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAB5577A2ADA4B0200A4D059 /* CinepolisUITests.swift */,
+				AAB5577C2ADA4B0200A4D059 /* CinepolisUITestsLaunchTests.swift */,
+			);
+			path = CinepolisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB5575B2ADA4B0100A4D059 /* Cinepolis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB557802ADA4B0200A4D059 /* Build configuration list for PBXNativeTarget "Cinepolis" */;
+			buildPhases = (
+				AAB557582ADA4B0100A4D059 /* Sources */,
+				AAB557592ADA4B0100A4D059 /* Frameworks */,
+				AAB5575A2ADA4B0100A4D059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinepolis;
+			productName = Cinepolis;
+			productReference = AAB5575C2ADA4B0100A4D059 /* Cinepolis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAB5576B2ADA4B0200A4D059 /* CinepolisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB557832ADA4B0200A4D059 /* Build configuration list for PBXNativeTarget "CinepolisTests" */;
+			buildPhases = (
+				AAB557682ADA4B0200A4D059 /* Sources */,
+				AAB557692ADA4B0200A4D059 /* Frameworks */,
+				AAB5576A2ADA4B0200A4D059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB5576E2ADA4B0200A4D059 /* PBXTargetDependency */,
+			);
+			name = CinepolisTests;
+			productName = CinepolisTests;
+			productReference = AAB5576C2ADA4B0200A4D059 /* CinepolisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAB557752ADA4B0200A4D059 /* CinepolisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB557862ADA4B0200A4D059 /* Build configuration list for PBXNativeTarget "CinepolisUITests" */;
+			buildPhases = (
+				AAB557722ADA4B0200A4D059 /* Sources */,
+				AAB557732ADA4B0200A4D059 /* Frameworks */,
+				AAB557742ADA4B0200A4D059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB557782ADA4B0200A4D059 /* PBXTargetDependency */,
+			);
+			name = CinepolisUITests;
+			productName = CinepolisUITests;
+			productReference = AAB557762ADA4B0200A4D059 /* CinepolisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB557542ADA4B0100A4D059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AAB5575B2ADA4B0100A4D059 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AAB5576B2ADA4B0200A4D059 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AAB5575B2ADA4B0100A4D059;
+					};
+					AAB557752ADA4B0200A4D059 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AAB5575B2ADA4B0100A4D059;
+					};
+				};
+			};
+			buildConfigurationList = AAB557572ADA4B0100A4D059 /* Build configuration list for PBXProject "Cinepolis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAB557532ADA4B0100A4D059;
+			productRefGroup = AAB5575D2ADA4B0100A4D059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB5575B2ADA4B0100A4D059 /* Cinepolis */,
+				AAB5576B2ADA4B0200A4D059 /* CinepolisTests */,
+				AAB557752ADA4B0200A4D059 /* CinepolisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB5575A2ADA4B0100A4D059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB557672ADA4B0200A4D059 /* Preview Assets.xcassets in Resources */,
+				AAB557642ADA4B0200A4D059 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB5576A2ADA4B0200A4D059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB557742ADA4B0200A4D059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAB557582ADA4B0100A4D059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5579C2ADA4CB600A4D059 /* Menu.swift in Sources */,
+				AAB557602ADA4B0100A4D059 /* CinepolisApp.swift in Sources */,
+				AAB5579E2ADA4CCC00A4D059 /* ContentView.swift in Sources */,
+				AAB557982ADA4C4B00A4D059 /* TrainCardView.swift in Sources */,
+				AAB557962ADA4C4000A4D059 /* Listas.swift in Sources */,
+				AAB5579A2ADA4C5200A4D059 /* VistaListas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB557682ADA4B0200A4D059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB557712ADA4B0200A4D059 /* CinepolisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB557722ADA4B0200A4D059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB5577B2ADA4B0200A4D059 /* CinepolisUITests.swift in Sources */,
+				AAB5577D2ADA4B0200A4D059 /* CinepolisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB5576E2ADA4B0200A4D059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB5575B2ADA4B0100A4D059 /* Cinepolis */;
+			targetProxy = AAB5576D2ADA4B0200A4D059 /* PBXContainerItemProxy */;
+		};
+		AAB557782ADA4B0200A4D059 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB5575B2ADA4B0100A4D059 /* Cinepolis */;
+			targetProxy = AAB557772ADA4B0200A4D059 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAB5577E2ADA4B0200A4D059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAB5577F2ADA4B0200A4D059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB557812ADA4B0200A4D059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinepolis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iest.Cinepolis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB557822ADA4B0200A4D059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinepolis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iest.Cinepolis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAB557842ADA4B0200A4D059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iest.CinepolisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinepolis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cinepolis";
+			};
+			name = Debug;
+		};
+		AAB557852ADA4B0200A4D059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iest.CinepolisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cinepolis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cinepolis";
+			};
+			name = Release;
+		};
+		AAB557872ADA4B0200A4D059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iest.CinepolisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cinepolis;
+			};
+			name = Debug;
+		};
+		AAB557882ADA4B0200A4D059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.iest.CinepolisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cinepolis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB557572ADA4B0100A4D059 /* Build configuration list for PBXProject "Cinepolis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB5577E2ADA4B0200A4D059 /* Debug */,
+				AAB5577F2ADA4B0200A4D059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB557802ADA4B0200A4D059 /* Build configuration list for PBXNativeTarget "Cinepolis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB557812ADA4B0200A4D059 /* Debug */,
+				AAB557822ADA4B0200A4D059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB557832ADA4B0200A4D059 /* Build configuration list for PBXNativeTarget "CinepolisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB557842ADA4B0200A4D059 /* Debug */,
+				AAB557852ADA4B0200A4D059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB557862ADA4B0200A4D059 /* Build configuration list for PBXNativeTarget "CinepolisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB557872ADA4B0200A4D059 /* Debug */,
+				AAB557882ADA4B0200A4D059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB557542ADA4B0100A4D059 /* Project object */;
+}
